@@ -1,4 +1,36 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Olivia Ten Den 
+* Created on: Feb 27
+* Updated on: May 10
 * This file contains the CSS for index.html
 */
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
+
+.mdl-layout__content {
+  padding-left: 20pt;
+  padding-right: 20pt;
+  padding-top: 20pt;
+}
+
+.mdl-textfield__error {
+  color: rgb(60, 25, 101);
+}
+
+.page-content {
+  color: rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.00rem;
+}
+
+body {
+  background-color: #b5d6ff;
+}
+
+img {
+  height: auto;
+  width: 450px;
+  float: right;
+}
