@@ -20,7 +20,7 @@ async function getWeather() {
     // output
     document.getElementById("weather").innerHTML =
       "<p> The current temperature is " + celsuisTemperatureRounded + " °C.</p>"
-    document.getElementById("weather-image").innerHTML = <img src = "https://openweathermap.org/img/wn/" + icon + "@2x.png">
+    document.getElementById("weather-image").innerHTML = '<img src = "https://openweathermap.org/img/wn/' + icon + '@2x.png">'
   }
   catch (error) {
     "<p> The weather information source is not working at this moment. </p>"
