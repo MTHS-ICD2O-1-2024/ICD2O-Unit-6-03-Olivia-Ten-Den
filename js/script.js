@@ -18,8 +18,8 @@ async function getWeather() {
 
     // output
     document.getElementById("weather").innerHTML = "<p> The current temperature is " + celsuisTemperatureRounded + " °C.</p>"
-    // document.getElementById("image").innerHTML = "<div> weatherIcon <div/>"
+    document.getElementById("image").innerHTML = "<div> weatherIcon <div/>"
   } catch (error) {
-    // <p> The weather information source is not working at this moment. </p>
+    <p> The weather information source is not working at this moment. </p>
   }
 }
