@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<!-- ICS2O-Unit6-03-HTML-JS -->
+<html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="API & JSON" />
+  <meta name="description" content="Today's Weather, in JS" />
   <meta name="keywords" content="mths, ics2o" />
-  <meta name="author" content="Mr. Coxall" />
+  <meta name="author" content="Olivia TD" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -14,7 +15,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>API & JSON</title>
+  <title>Today's Weather, in JS</title>
 </head>
 
 <body>
@@ -23,27 +24,26 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">API & JSON</span>
+        <span class="mdl-layout-title">Today's Weather, in JS</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/cat.svg" alt="cat" width="95%" height="auto">
+        <!-- <img src="" id="image"> -->
       </div>
-      <div class="page-content">Cat Fact</div>
+      <div class="page-content">Today's Weather</div>
       <br />
       <!-- Simple Textfield for integers-->
       <form action="#">
         <!-- Accent-colored raised button with ripple -->
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="getCatFact()">
-          Get a Random Cat Fact
+          onclick="getWeather()">
+          See Today's Temperature
         </button>
       </form>
       <br />
       <div class="page-content-answer">
-        <div id="cat-fact-number"></div>
-        <div id="cat-fact"></div>
+        <div id="weather"></div>
       </div>
   </div>
   </main>
